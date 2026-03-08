@@ -10,7 +10,7 @@ inputs:
     description: "Select armsr-armv8 file path."
     required: false
     default: "openwrt/bin/targets/*/*/*rootfs.tar.gz"
-  openwrt_board:
+  openwrt_board: "vplus"
     description: "Select device board."
     required: false
     default: "all"
